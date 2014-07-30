@@ -93,11 +93,10 @@ class TestTerminal < MiniTest::Unit::TestCase
   end
 
   def test_case_1
-  	__set_price_for_all_items
+    __set_price_for_all_items
     @terminal.scan('ABCDABAA')
     assert_equal 32.40, @terminal.total
   end
-=begin
 
   def test_case_2
   	__set_price_for_all_items
@@ -110,7 +109,6 @@ class TestTerminal < MiniTest::Unit::TestCase
     @terminal.scan('ABCD')
     assert_equal 15.40, @terminal.total
   end
-=end
 
 
 end
