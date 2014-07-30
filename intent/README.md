@@ -14,11 +14,13 @@ Here are the products listed by code and the prices to use (there is no sales ta
 
 For your solution, we ask that you use Java, Clojure or Ruby. There should be a top level point of sale terminal service object that looks something like the pseudo-code below. You are free to design and implement the rest of the code however you wish, including how you specify the prices in the system:
 
+````ruby
 terminal.setPricing(...)
 terminal.scan("A")
 terminal.scan("C")
 ... etc.
 result = terminal.total
+````
 
 Here are the minimal inputs you should use for your test cases. These test cases must be shown to work in your program:
 
